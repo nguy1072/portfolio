@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyn Nguyen - Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/site.css">
+</head>
+<body>
+    <header class="header-scroll">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <div class="d-flex justify-content-center align-items-center">
+                    <img loading="lazy" src="./img/logo.svg" class="img-fluid" style="width: 15px;" alt="Image">
+                    <div class="div-2 text-capitalize" style="font-size: 25px; color: #d3766a; font-weight: 700; letter-spacing: -0.72px; line-height: 67%; font-family: Sora, sans-serif;">
+                      Lyn Nguyen
+                    </div>
+                  </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" role="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item navbar-style">
+                            <a class="nav-link" href="index.html">Work</a>
+                        </li>
+                        <li class="nav-item navbar-style">
+                            <a class="nav-link" href="play.html">Play</a>
+                        </li>
+                        <li class="nav-item navbar-style">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item navbar-style">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-body">
+        <div class="row content">
+            <div class="text-center" style="font-size: 20px;margin-bottom: 1rem;">Get in Touch</div>
+            <div class="display-6 text-center" style="font-weight: bold;margin-bottom: 1.5rem;"><a href="#contacts" class="skip-link">Contact Me</a></div>
+            <div class="text-center">
+                If you'd like to get in touch, please feel free to reach out using the contact information provided
+            </div>
+        </div>
+        <div class="row content" id="contacts">
+            <div class="col-md-6 form-col">
+                <div class="form-groups">
+                    <label>First Name</label>
+                    <input type="text" class="form-control"/>
+                </div>
+            </div>
+            <div class="col-md-6 form-col">
+                <div class="form-groups">
+                    <label>Last Name</label>
+                    <input type="text" class="form-control"/>
+                </div>
+            </div>
+            <div class="col-md-6 form-col">
+                <div class="form-groups">
+                    <label>Email</label>
+                    <input type="text" class="form-control"/>
+                </div>
+            </div>
+            <div class="col-md-6 form-col">
+                <div class="form-groups">
+                    <label>Phone Number</label>
+                    <input type="text" class="form-control"/>
+                </div>
+            </div>
+            <div class="col-md-12 form-col">
+                <div class="form-groups">
+                    <label>Choose a topic</label>
+                    <select class="form-select">
+                        <option>Select one...</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-12 form-col">
+                <div class="form-groups">
+                    <label>Message</label>
+                    <textarea style="height: 25vh;" placeholder="Type your message..." class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="form-groups d-flex justify-content-center" style="margin-top:2rem">
+                <button type="button" style="background-color:#d3766a" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </main>
+    <script src="./js/site.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
