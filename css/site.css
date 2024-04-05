@@ -1,0 +1,129 @@
+.navbar-style {
+    padding: 0 1rem; 
+    font-weight: bold;
+    color:black !important;
+}
+.header-scroll {
+    position: fixed; 
+    top: 0; left: 0; 
+    right: 0; 
+    z-index: 999; 
+    margin-bottom: 20px;
+}
+.content {
+    padding:1.5rem 4rem;
+}
+.img {
+    aspect-ratio: 2.38;
+    object-fit: auto;
+    object-position: center;
+    width: 100%;
+}
+
+.title-div {
+    color: #000;
+    letter-spacing: -0.25px;
+    align-self: start;
+    margin: 126px 0 0 13px;
+    font: 800 38px/110% Inter, sans-serif;
+  }
+  .subtitle-div {
+    color: #000;
+    letter-spacing: -0.25px;
+    align-self: start;
+    margin: 2rem 0 0 13px;
+    font: 800 25px/110% Inter, sans-serif;
+  }
+  .content-title {
+    font-size: 25px;
+  }
+
+  .content-tagline {
+    letter-spacing: 0.1px;
+    margin: 1rem 0;
+    font: italic 200 16px Inter, sans-serif;
+  }
+
+.about-me-overview {
+    font-size: 1.3rem;
+}
+
+.favor-title {
+    color: #d3766a;
+    margin-bottom: 0.5rem;
+}
+
+.fit-img {
+    aspect-ratio: 1.03;
+    object-fit: auto;
+    object-position: center;
+    width: 100%;
+    flex-grow: 1;
+}
+.favor-row {
+    display:block;
+}
+.favor-card {
+    margin-bottom: 5rem;
+}
+.form-col {
+    margin-top: 1rem;
+}
+.main-body {
+    margin-top:2.9rem;
+}
+
+.active {
+    background-color: #D3766A;
+    color:white !important;
+    border-radius: 0.5rem;
+}
+.nav-link {
+    width: 80px;
+    text-align: center;
+}
+.skip-link {
+    text-decoration: none;
+    color: black;
+}
+@media (max-width:1300px) {
+    .about-me-overview {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width:1190px) {
+    .about-me-overview {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width:1100px) {
+    .about-me-overview {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:1010px) {
+    .about-me-overview {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width:991px) {
+    .about-me-overview {
+        margin-top:1rem;
+        font-size: 1.3rem;
+    }
+    .div {
+        max-width: 100%;
+        margin-top: 40px;
+        font-size: 40px;
+      }
+      .img {
+        max-width: 100%;
+        }
+        .nav-link {
+            text-align: start;
+            padding-left: 0.5rem;
+        }
+}
